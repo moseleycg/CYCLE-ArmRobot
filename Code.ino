@@ -19,3 +19,5 @@ int val2 = 0;      //Pontenciometro eixo B
 int lastVal2 = 0;
 int val3 = 0;      //Pontenciometro eixo x
 int lastVal3 = 0;
+void setup(){
+       Serial.begin(9600)
